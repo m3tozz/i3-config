@@ -26,9 +26,9 @@ if [[ $islem == y || $islem == Y ]]; then
 	echo -e "\033[31mTR: Yedekleme Tamamlandı Yükleme İşlemine Geçiliyor...\033[0m"
 	sleep 3
 	rm -r /home/$USER/.config/i3
-	cp -r i3 /home/$USER/.config/i3
+	cp -r i3 /home/$USER/.config/
 	rm -r /home/$USER/.config/polybar
-	cp -r polybar /home/$USER/.config/polybar
+	cp -r polybar /home/$USER/.config/
 	clear
 	echo -e "\033[31mEN: The İnstallation Process Is Complete, You Can Restart Your i3 System And Enjoy Your New Desktop\033[0m"
 	echo -e "\033[31mTR: Yükleme İşlemi Tamamlandı, i3 Sisteminizi Yeniden Başlatabilir Ve Yeni masaüstünüzün Keyfini Çıkartabilirsiniz\033[0m"
@@ -40,9 +40,9 @@ elif [[ $islem == n || $islem == N ]]; then
 	echo -e "\033[0;31mTR: Kurulum Yapılıyor...\033[1;36m"
 	sleep 3
 	rm -r /home/$USER/.config/i3
-	cp -r i3 /home/$USER/.config/i3
+	cp -r i3 /home/$USER/.config/
 	rm -r /home/$USER/.config/polybar
-	cp -r polybar /home/$USER/.config/polybar
+	cp -r polybar /home/$USER/.config/
 	clear
 	echo -e "\033[31mEN: The İnstallation Process Is Complete, You Can Restart Your i3 System And Enjoy Your New Desktop\033[0m"
 	echo -e "\033[31mTR: Yükleme İşlemi Tamamlandı, i3 Sisteminizi Yeniden Başlatabilir Ve Yeni masaüstünüzün Keyfini Çıkartabilirsiniz\033[0m"
