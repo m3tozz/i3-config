@@ -1,5 +1,6 @@
 # Made By M3TOZZ
 # https://github.com/m3tozz
+USER=$([ -n "$SUDO_USER" ] && echo "$SUDO_USER" || echo "$USER")
 	clear
 banner(){
 echo -e '\033[1;36m
