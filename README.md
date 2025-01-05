@@ -7,13 +7,13 @@
 
 Install (Automatic)
 ```bash
-git clone --depth 1 https://github.com/yusufipk/i3-config && cd i3-config && bash ./install.sh
+git clone --depth 1 https://github.com/m3tozz/i3-config && cd i3-config && bash ./install.sh
 ```
 
 Install (Manual)
 --
 ```bash
-git clone --depth 1 https://github.com/yusufipk/i3-config
+git clone --depth 1 https://github.com/m3tozz/i3-config
 ```
 ```bash
 cd i3-config
